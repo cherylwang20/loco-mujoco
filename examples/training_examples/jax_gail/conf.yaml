@@ -17,7 +17,7 @@ defaults:
 #      experiment.env_params.env_name: MjxUnitreeH1.walk, MjxUnitreeH1.run
 
 wandb:
-  project: "gail"
+  project: "deepmimic"
 
 experiment:
   task_factory:

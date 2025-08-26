@@ -2,6 +2,7 @@ import os
 import sys
 import jax
 import jax.numpy as jnp
+print(f"Current backend: {jax.default_backend()}")
 import wandb
 from dataclasses import fields
 from loco_mujoco import TaskFactory
